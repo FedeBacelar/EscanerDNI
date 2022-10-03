@@ -1,0 +1,31 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    height: 2em;
+    color: aliceblue;
+    margin: 0.2rem;
+}
+input{
+    justify-content: center;
+    background-color: aliceblue;
+    text-align: center;
+    color: black;
+    margin: 1rem;
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+}
+h2{
+    color: red;
+    font-size: 1.2em;
+}

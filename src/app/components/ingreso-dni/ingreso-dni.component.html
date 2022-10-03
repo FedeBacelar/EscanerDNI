@@ -1,0 +1,6 @@
+<form (submit)="$event.preventDefault()">
+    <h1>Ingrese un DNI</h1>
+    <input type="text" #inputDNI (keyup)="validarDato(inputDNI, $event)">
+    <h2 *ngIf="!ingresoValido">Error: Ingrese un DNI valido. Ej: 12.345.678</h2>
+    <button (click)="enviarData(inputDNI)">Consultar</button>
+</form>

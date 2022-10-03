@@ -1,0 +1,5 @@
+[{"dni":"43.583.020","nombre":"Federico","apellido":"Bacelar","genero":"Masculino","nacionalidad":"Argentina","fechaDeNacimiento":{"dia":21,"mes":6,"anio":2001},"numeroDeTramite":234325678652347},
+{"dni":"42.583.020","nombre":"Tomas","apellido":"Balka","genero":"Masculino","nacionalidad":"Argentina","fechaDeNacimiento":{"dia":20,"mes":4,"anio":2000},"numeroDeTramite":234345698652347},
+{"dni":"41.583.020","nombre":"Belen","apellido":"Palmo","genero":"Femenino","nacionalidad":"Argentina","fechaDeNacimiento":{"dia":21,"mes":6,"anio":1999},"numeroDeTramite":193025678652347},
+{"dni":"23.456.789","nombre":"Juan","apellido":"Bala","genero":"Masculino","nacionalidad":"Argentina","fechaDeNacimiento":{"dia":21,"mes":4,"anio":1955},"numeroDeTramite":102030405060},
+{"dni":"12.432.123","nombre":"Paloma","apellido":"Placa","genero":"Femenino","nacionalidad":"Argentina","fechaDeNacimiento":{"dia":12,"mes":3,"anio":1923},"numeroDeTramite":102030405060}]

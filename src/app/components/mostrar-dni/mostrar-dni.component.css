@@ -1,0 +1,22 @@
+h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 1.5rem;
+}
+li{
+    color: aliceblue;
+    list-style: none;
+    margin: 0.1rem;
+}
+span{
+    color: black;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

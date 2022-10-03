@@ -1,0 +1,26 @@
+<form (submit)="$event.preventDefault()">
+    <h1>Registrar un DNI</h1>
+    <div>
+        <h2 [ngClass]="arrayInputsValidos[1]? '' : 'error'">Nombre: </h2>
+        <input type="text" placeholder="nombre" #nombre>
+        <h2 [ngClass]="arrayInputsValidos[2]? '' : 'error'">Apellido: </h2>
+        <input type="text" placeholder="Apellido" #apellido>
+    </div>
+    <div>
+        <h2 [ngClass]="arrayInputsValidos[3]? '' : 'error'">Genero: </h2>
+        <input type="text" placeholder="Genero" #genero>
+        <h2 [ngClass]="arrayInputsValidos[4]? '' : 'error'">Nacionalidad: </h2>
+        <input type="text" placeholder="Nacionalidad" #nacionalidad>
+    </div>
+    <div>
+        <h2 [ngClass]="arrayInputsValidos[0]? '' : 'error'">DNI: </h2>
+        <input type="text" placeholder="DNI" #dni (keyup)="validarDNI(dni, $event)">
+        <h2 [ngClass]="arrayInputsValidos[6]? '' : 'error'">Numero De Tramite: <span class="error" *ngIf="!arrayInputsValidos[6]">Ingrese 12 numeros</span></h2>
+        <input type="number" placeholder="Numero De Tramite" #numeroDeTramite>
+    </div>
+    <div>
+        <h2 [ngClass]="arrayInputsValidos[5]? '' : 'error'">Fecha De Nacimiento: </h2>
+        <input type="text" placeholder="Fecha De Nacimiento" #fecha (keyup)="validarFecha(fecha, $event)">
+    </div>
+    <button (click)="enviarData(dni.value,nombre.value,apellido.value,genero.value,nacionalidad.value,fecha.value,numeroDeTramite.value)">Registrar</button>
+</form>
